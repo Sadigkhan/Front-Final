@@ -1,0 +1,2012 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="sidebar">
+        <div class="sidebar-inner">
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <div class="close" id="btn-close-navbar">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="search">
+                    <input type="text" placeholder="Search for items...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="sidebar-menu">
+                    <nav>
+                        <ul class="navigation">
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Home</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Home 1</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 3</a></li>
+                                    <li><a href="#">Home 4</a></li>
+                                    <li><a href="#">Home 5</a></li>
+                                    <li><a href="#">Home 6</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Shop</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Shop Grid - Right Sidebar</a></li>
+                                    <li><a href="#">Shop Grid - Left Sidebar</a></li>
+                                    <li><a href="#">Shop List - Right Sidebar</a></li>
+                                    <li><a href="#">Shop List - Left Sidebar</a></li>
+                                    <li><a href="#">Shop - Wide</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Single Product</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Product – Right Sidebar</a></li>
+                                            <li><a href="#">Product – Left Sidebar</a></li>
+                                            <li><a href="#">Product – No Sidebar</a></li>
+                                            <li><a href="#">Product – Vendor Info</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop - Filter</a></li>
+                                    <li><a href="#">Shop - Wishlist</a></li>
+                                    <li><a href="#">Shop - Cart</a></li>
+                                    <li><a href="#">Shop - Checkout</a></li>
+                                    <li><a href="#">Shop - Compare</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Shop Invoice</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Shop Invoice 1</a></li>
+                                            <li><a href="#">Shop Invoice 2</a></li>
+                                            <li><a href="#">Shop Invoice 3</a></li>
+                                            <li><a href="#">Shop Invoice 4</a></li>
+                                            <li><a href="#">Shop Invoice 5</a></li>
+                                            <li><a href="#">Shop Invoice 6</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Vendors</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Vendors Grid</a></li>
+                                    <li><a href="#">Vendors List</a></li>
+                                    <li><a href="#">Vendor Details 01</a></li>
+                                    <li><a href="#">Vendor Details 02</a></li>
+                                    <li><a href="#">Vendor Dashboard</a></li>
+                                    <li><a href="#">Vendor Guide</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Mega Menu</a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Women's Fashion</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Blouses & Shirts</a></li>
+                                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                            <li><a href="#">Women's Sets</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Men's Fashion</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Jackets</a></li>
+                                            <li><a href="#">Casual Faux Leather</a></li>
+                                            <li><a href="#">Genuine Leather</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Technology</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Gaming Laptops</a></li>
+                                            <li><a href="#">Ultraslim Laptops</a></li>
+                                            <li><a href="#">Tablets</a></li>
+                                            <li><a href="#">Laptop Accessories</a></li>
+                                            <li><a href="#">Tablet Accessories</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Blog Category Grid</a></li>
+                                    <li><a href="#">Blog Category List</a></li>
+                                    <li><a href="#">Blog Category Big</a></li>
+                                    <li><a href="#">Blog Category Wide</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Single Product Layout</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Left Sidebar</a></li>
+                                            <li><a href="#">Right Sidebar</a></li>
+                                            <li><a href="#">No Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Purchase Guide</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Language</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">French</a></li>
+                                    <li><a href="#">German</a></li>
+                                    <li><a href="#">Spanish</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="info">
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Our location
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                        Log In / Sign Up
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-headphones"></i>
+                        (+01) - 2345 - 6789
+                    </a>
+                </div>
+                <div class="socials">
+                    <h6>Follow Us</h6>
+                    <a href="#">
+                        <img src="images/icon-facebook-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-twitter-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-instagram-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-pinterest-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-youtube-white.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <section id="top">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-lg-4 ">
+                        <ul class="links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="news">
+                            <div class="slick-text">100% Secure delivery without contacting the courier</div>
+                            <div class="slick-text">Super Value Deals - Save more with coupons</div>
+                            <div class="slick-text">Trendy 25silver jewelry, save up 35% off today</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="help">
+                            <ul class="help-menu">
+                                <li class="help-menu-item">Need help? Call Us: <span class="highlight"> + 1800
+                                        900</span></li>
+                                <li class="help-menu-item lang">
+                                    English
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <ul class="flag-dropdown">
+                                        <li>
+                                            <img src="images/flag-fr.png" alt="">
+                                            France
+                                        </li>
+                                        <li>
+                                            <img src="images/flag-dt.png" alt="">
+                                            German
+                                        </li>
+                                        <li>
+                                            <img src="images/flag-fr.png" alt="">
+                                            France
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="help-menu-item lang">
+                                    USD
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <ul class="flag-dropdown currency-dropdown">
+                                        <li>
+                                            <img src="images/flag-fr.png" alt="">
+                                            INR
+                                        </li>
+                                        <li>
+                                            <img src="images/flag-dt.png" alt="">
+                                            MBP
+                                        </li>
+                                        <li>
+                                            <img src="images/flag-fr.png" alt="">
+                                            EU
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-2 col-4">
+                        <div class="logo">
+                            <a href=""><img src="images/logo.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 d-none d-xl-block">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search for items...">
+                            <img src="images/search.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-8">
+                        <div class="actions">
+                            <div class="action hide-action">
+                                <div class="icon">
+                                    <img src="images/icon-compare.svg" alt="">
+                                    <span>6</span>
+                                </div>
+                                <div class="text">
+                                    <p>Compare</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <div class="icon">
+                                    <img src="images/icon-heart.svg" alt="">
+                                    <span>6</span>
+                                </div>
+                                <div class="text">
+                                    <p>Wishlist</p>
+                                </div>
+                            </div>
+                            <div class="action cart-action">
+                                <div class="icon">
+                                    <img src="images/icon-cart.svg" alt="">
+                                    <span>6</span>
+                                </div>
+                                <div class="text">
+                                    <p>Cart</p>
+                                </div>
+                                <div class="cart">
+                                    <ul>
+                                        <li>
+                                            <img src="images/thumbnail-2.jpg" alt="">
+                                            <div class="description">
+                                                <div class="name">Daisy Casual Bag</div>
+                                                <div class="price">
+                                                    <span class="quantity">1</span> × <span
+                                                        class="amount">$3200.00</span>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </li>
+                                        <li>
+                                            <img src="images/thumbnail-2.jpg" alt="">
+                                            <div class="description">
+                                                <div class="name">Daisy Casual Bag</div>
+                                                <div class="price">
+                                                    <span class="quantity">1</span> × <span
+                                                        class="amount">$3200.00</span>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="cart-footer">
+                                        <div class="total">
+                                            <p class="text">Total</p>
+                                            <p class="price">$4000.00</p>
+                                        </div>
+                                        <div class="buttons">
+                                            <button class="btn-cart" type="button">View cart</button>
+                                            <button class="btn-checkout" type="button">Checkout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="action acc-action hide-action">
+                                <div class="icon">
+                                    <img src="images/icon-user.svg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Account</p>
+                                </div>
+                                <div class="account-dropdown">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-regular fa-user"></i>
+                                            My Account
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            Order Tracking
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-tag"></i>
+                                            My Voucher
+                                        </li>
+                                        <li>
+                                            <i class="fa-regular fa-heart"></i>
+                                            My Wishlist
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-sliders"></i>
+                                            Settings
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                            Sign out
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bottom">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-2 bottom-left">
+                        <div class="bottom-left-div ">
+                            <i class="fa-solid fa-table-cells-large "></i>
+                            <span>Trending Categories</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 align-items-center d-flex justify-content-between  bottom-mid">
+                        <div>
+                            <img class="mr-2" src="images/icon-hot-white.svg" alt="">
+                            <a href="#">Hot Deals</a>
+                        </div>
+                        <div class="about">
+                            <a class="drop-down" href="index.html">Home
+                                <i class="fa-solid fa-angle-down ml-2"></i>
+                                <ul class="drop-down-ul ">
+                                    <li class="mb-2"> Home 1</li>
+                                    <li class="mb-2"> Home 1</li>
+                                    <li class="mb-2"> Home 1</li>
+                                    <li class="mb-2"> Home 1</li>
+                                    <li class="mb-2"> Home 1</li>
+                                    <li class="mb-2"> Home 1</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="about.html">About</a>
+                        </div>
+                        <div>
+                            <a class="drop-down" href="shop.html">Shop
+                                <i class="fa-solid fa-angle-down ml-2"></i>
+                                <ul class="drop-down-ul ">
+                                    <li class="mb-2"> Shop Grid - Left Sidebar</li>
+                                    <li class="mb-2"> Shop Grid - Right Sidebar</li>
+                                    <li class="mb-2"> Shop List - Right Sidebar</li>
+                                    <li class="mb-2"> Shop Grid - Left Sidebar</li>
+                                    <li class="mb-2"> Show - Wide</li>
+                                    <li class="mb-2"> Single Product <i class="fa-solid fa-chevron-right ml-5"
+                                            style="color:#7e7e7e;"></i> </li>
+                                    <li class="mb-2"> Shop - Filter</li>
+                                    <li class="mb-2"> Shop - Wishlist</li>
+                                    <li class="mb-2"> Shop - Cart</li>
+                                    <li class="mb-2"> Shop - Checkout</li>
+                                    <li class="mb-2"> Shop - Compare</li>
+                                    <li class="mb-2"> Shop Invoice <i class="fa-solid fa-chevron-right ml-5"
+                                            style="color:#7e7e7e;"></i></li>
+
+                                </ul>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="drop-down" href="#">Vendors <i class="fa-solid fa-angle-down"></i>
+                                <ul class="drop-down-ul ">
+                                    <li class="mb-2"> Vendors Grid</li>
+                                    <li class="mb-2"> Vendors List</li>
+                                    <li class="mb-2"> Vendor Details 01</li>
+                                    <li class="mb-2"> Vendor Details 02</li>
+                                    <li class="mb-2"> Vendor Dashboard</li>
+                                    <li class="mb-2"> Vendor Guide</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="drop-down-1" href="#">Mega menu<i class="fa-solid fa-angle-down ml-2"></i>
+                                <div class="drop-down-ul-1 d-flex justify-content-between">
+                                    <ul>
+                                        <h3 style="color: #3bb77e; font-size:19px; font-weight: 600;" class="mb-3">Fruit
+                                            & Vegetables</h3>
+                                        <li class="mb-2"> Meat & Poultry</li>
+                                        <li class="mb-2"> Fresh Vegetables</li>
+                                        <li class="mb-2"> Herbs & Seasonings</li>
+                                        <li class="mb-2"> Cuts & Sprouts</li>
+                                        <li class="mb-2"> Exotic Fruits & Veggies</li>
+                                        <li class="mb-2"> Packaged Produce</li>
+                                    </ul>
+                                    <ul>
+                                        <h3 style="color: #3bb77e; font-size:19px; font-weight: 600;" class="mb-3">
+                                            Brekfast & Diary</h3>
+                                        <li class="mb-2"> Milk & Flavoured Milk</li>
+                                        <li class="mb-2"> Butter and Margarine</li>
+                                        <li class="mb-2"> Eggs Substitutes</li>
+                                        <li class="mb-2"> Marmalades</li>
+                                        <li class="mb-2"> Sour Cream</li>
+                                        <li class="mb-2"> Cheese</li>
+                                    </ul>
+                                    <ul>
+                                        <h3 style="color: #3bb77e; font-size:19px; font-weight: 600;" class="mb-3">Meat
+                                            & Seafood</h3>
+                                        <li class="mb-2"> Breakfast Sausage</li>
+                                        <li class="mb-2"> Dinner Sausage</li>
+                                        <li class="mb-2"> Chicken</li>
+                                        <li class="mb-2"> Sliced Deli Meat</li>
+                                        <li class="mb-2"> Wild Caught Fillets</li>
+                                        <li class="mb-2"> Crab and Shellfish</li>
+                                    </ul>
+                                    <div class="banner-image">
+                                        <div class="banner-text">
+                                            <h4>HOT DEALS</h4>
+                                            <h3>DON'T MISS <br> TRENDING</h3>
+                                            <span>SAVE TO 50%</span>
+                                            <button> Shop Now</button>
+                                            <h2>50% <br>off</h2>
+
+                                        </div>
+
+                                        <img src="images/banner-menu.png" alt="">
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="drop-down" href="#">Blog<i class="fa-solid fa-angle-down ml-2"></i>
+                                <ul class="drop-down-ul">
+                                    <li class="mb-2"> Blog Category Grid</li>
+                                    <li class="mb-2"> Blog Category List</li>
+                                    <li class="mb-2"> Blog Category Big</li>
+                                    <li class="mb-2"> Blog Category Wide</li>
+                                    <li class="mb-2"> Single Post</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div>
+
+                            <a class="drop-down" href="#">Pages<i class="fa-solid fa-angle-down ml-2"></i>
+                                <ul class="drop-down-ul">
+                                    <li class="mb-2">About Us</li>
+                                    <li class="mb-2">Contact</li>
+                                    <li class="mb-2">My Account</li>
+                                    <li class="mb-2">Login</li>
+                                    <li class="mb-2">Register</li>
+                                    <li class="mb-2">Purchase Guide</li>
+                                    <li class="mb-2">Privacy Policy</li>
+                                    <li class="mb-2">Terms of Service</li>
+                                    <li class="mb-2">404 Page</li>
+                                </ul>
+
+
+
+                            </a>
+
+                        </div>
+                        <div>
+
+                            <a href="contact.html">Contact</a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 d-flex bottom-right align-items-center">
+                        <div class=" left d-flex justify-content-between">
+                            <img src="images/icon-headphone-white.svg" alt="">
+                        </div>
+                        <div class=" right justify-content-center text-center">
+                            <p>1900 - 888</p>
+                            <span>24/7 Support Center</span>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section id="phone-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <i id="btn-open-navbar" class="fas fa-bars menu"></i>
+                </div>
+                <div class="col-8 text-center">
+                    <img class="logo" src="images/logo.svg" alt="">
+                </div>
+                <div class="col-2 d-flex justify-content-end">
+                    <div class="action hide-action">
+                        <div class="icon">
+                            <img src="images/icon-heart.svg" alt="">
+                            <span>6</span>
+                        </div>
+                    </div>
+                    <div class="action hide-action">
+                        <div class="icon">
+                            <img src="images/icon-cart.svg" alt="">
+                            <span>6</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="search">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 d-flex text-center align-items-center">
+
+
+
+                    <div class="col-lg-3 text-left">
+                        <h1 class="ml-4">Snack</h1>
+                    </div>
+                    <div class="col-lg-9">
+                        <a href=""> <i class="fa-solid fa-xmark  mr-2"></i> Cabbage</a>
+                        <a style="color: black;" href=""> <i class="fa-solid fa-xmark  mr-2"></i> Broccoli</a>
+                        <a href=""> <i class="fa-solid fa-xmark  mr-2"></i> Aritchoke</a>
+                        <a href=""> <i class="fa-solid fa-xmark  mr-2"></i> Celery</a>
+                        <a href=""> <i class="fa-solid fa-xmark  mr-2"></i> Spinach</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="index-main">
+        <div class="container-fluid">
+            
+            <p style="color: #7E7E7E;" class="mt-5">We found <strong style="color:#3bb77e;">29</strong> items for you!</p>
+
+            <div class="product mt-5">
+                <div class="main-block">
+                    <a href="product.html">
+                        <div class="block-top ">
+                            <div class="promotion">
+                                <span>Hot</span>
+                            </div>
+                            <div class="img">
+                                <div class="back-image"><img class="bottom-img" src="images/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="top-image"><img class="top-img" src="images/product-1-1.jpg" alt=""></div>
+                                <p class="ml-3">Snack</p>
+                                <div class="icons">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-bottom ">
+                            <div class="bottom-desc">
+                                <a href="">Seeds of Change Organic Quinoe Naturel</a>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(4.0)</span>
+                                </div>
+    
+                                <p>By <a href="">Nest Food</a></p>
+                            </div>
+                            <div class="bottom-cart align-items-center">
+                                <div class="pro-price align-items-center">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                </div>
+                                <div class="cart-button">
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                                </div>
+                            </div>
+                        </div></a>                  
+                </div>            
+                <div class="main-block">
+                    <a href="product.html">
+                        <div class="block-top ">
+                            <div class="promotion">
+                                <span>Sale</span>
+                            </div>
+                            <div class="img">
+                                <div class="back-image"><img class="bottom-img" src="images/product-2-2.jpg" alt="">
+                                </div>
+                                <div class="top-image"><img class="top-img" src="images/product-2-1.jpg" alt=""></div>
+                                <p class="ml-3">Hodo Foods</p>
+                                <div class="icons">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-bottom ">
+                            <div class="bottom-desc">
+                                <a href="">All Natural Italian-Style Chicken Meatballs</a>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(4.0)</span>
+                                </div>
+    
+                                <p>By <a href="">Nest Food</a></p>
+                            </div>
+                            <div class="bottom-cart">
+                                <div class="pro-price ">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                </div>
+                                <div class="cart-button">
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-block ">
+                    <a href="product.html">
+                        <div class="block-top ">
+                            <div class="promotion">
+                                <span>New</span>
+                            </div>
+                            <div class="img">
+                                <div class="back-image"><img class="bottom-img" src="images/product-3-2.jpg" alt="">
+                                </div>
+                                <div class="top-image"><img class="top-img" src="images/product-3-1.jpg" alt=""></div>
+                                <p class="ml-3">Snack</p>
+                            </div>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                        <div class="block-bottom ">
+                            <div class="bottom-desc">
+                                <a href="">Angie’s Boomchickapop Sweet & Salty</a>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(4.0)</span>
+                                </div>
+    
+                                <p>By <a href="">Nest Food</a></p>
+                            </div>
+                            <div class="bottom-cart">
+                                <div class="pro-price ">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                </div>
+                                <div class="cart-button">
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                   
+                </div>
+                <div class="main-block">
+                    <a href="product.html">
+                        <div class="block-top ">
+                            <div class="promotion">
+    
+                            </div>
+                            <div class="img">
+                                <div class="back-image"><img class="bottom-img" src="images/product-4-2.jpg" alt="">
+                                </div>
+                                <div class="top-image"><img class="top-img" src="images/product-4-1.jpg" alt=""></div>
+                                <p class="ml-3">Vegetables</p>
+                                <div class="icons">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-bottom ">
+                            <div class="bottom-desc">
+                                <a href="">Foster Farms Takeout Crispy Classic</a>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(4.0)</span>
+                                </div>
+    
+                                <p>By <a href="">Nest Food</a></p>
+                            </div>
+                            <div class="bottom-cart">
+                                <div class="pro-price ">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                </div>
+                                <div class="cart-button">
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>                 
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-5-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-5-1.jpg" alt=""></div>
+                            <p class="ml-3">Pet Foods</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-6-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-6-1.jpg" alt=""></div>
+
+                            <p class="ml-3">Hodo Food</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-7-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-7-1.jpg" alt=""></div>
+                            <p class="ml-3">Meats</p>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                   <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-8-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-8-1.jpg" alt=""></div>
+
+                            <p class="ml-3">Snack</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-9-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-9-1.jpg" alt=""></div>
+                            <p class="ml-3">Coffees</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-10-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-10-1.jpg" alt=""></div>
+
+                            <p class="ml-3">Cream</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-1-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-1-1.jpg" alt=""></div>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-2-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-2-1.jpg" alt=""></div>
+
+                            <span>salam</span>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                 <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-3-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-3-1.jpg" alt=""></div>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                 </a>
+                </div>
+                <div class="main-block">
+                   <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-4-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-4-1.jpg" alt=""></div>
+
+                            <span>salam</span>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+                <div class="main-block">
+                 <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-5-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-5-1.jpg" alt=""></div>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                 </a>
+                </div>
+                <div class="main-block">
+                   <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-6-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-6-1.jpg" alt=""></div>
+
+                            <span>salam</span>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+                <div class="main-block">
+                 <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-7-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-7-1.jpg" alt=""></div>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                 </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-8-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-8-1.jpg" alt=""></div>
+
+                            <span>salam</span>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                  <a href="product.html">
+                    <div class="block-top ">
+                        <div class="promotion">
+                            <span>Sale</span>
+                        </div>
+                        <div class="img">
+                            <div class="back-image"><img class="bottom-img" src="images/product-9-2.jpg" alt="">
+                            </div>
+                            <div class="top-image"><img class="top-img" src="images/product-9-1.jpg" alt=""></div>
+                            <p>Lorem, ipsum dolor.</p>
+                            <div class="icons">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-bottom ">
+                        <div class="bottom-desc">
+                            <a href="">Blue Diamond Almonds Lightly Naturel</a>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span>(4.0)</span>
+                            </div>
+
+                            <p>By <a href="">Nest Food</a></p>
+                        </div>
+                        <div class="bottom-cart">
+                            <div class="pro-price ">
+                                <div>
+                                    <span class="new-price">$54.35</span>
+                                    <del class="old-price">$55.8</del>
+                                </div>
+                            </div>
+                            <div class="cart-button">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="main-block">
+                    <a href="product.html">
+                        <div class="block-top ">
+                            <div class="promotion">
+                                <span>Sale</span>
+                            </div>
+                            <div class="img">
+                                <div class="back-image"><img class="bottom-img" src="images/product-10-2.jpg" alt="">
+                                </div>
+                                <div class="top-image"><img class="top-img" src="images/product-10-1.jpg" alt=""></div>
+    
+                                <span>salam</span>
+                                <div class="icons">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-bottom ">
+                            <div class="bottom-desc">
+                                <a href="">Chobani Complete Vanilla Greek Bottle</a>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                    <span>(4.0)</span>
+                                </div>
+    
+                                <p>By <a href="">Nest Food</a></p>
+                            </div>
+                            <div class="bottom-cart">
+                                <div class="pro-price ">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                </div>
+                                <div class="cart-button">
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                   
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <section id="deals-day">
+        <div class="pagination">
+            <a href=""><i class="fa-solid fa-left-long"></i></a>
+        <a href="">1</a>
+        <a style="background-color: #3BB77E; color:white;" href="">2</a>
+        <a href="">3</a>
+        <a href="">. . .</a>
+        <a href="">6</a>
+        <a href=""><i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <h1>Deals of the Day</h1>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="col-lg-3 col-12">
+                    <div class="box1">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-5.png" alt="">
+                        <div class="contents">
+                            <div class="counter d-flex justify-content-between">
+                                <span>
+                                    <p class="num">1116</p>
+                                    <p>Days</p>
+                                </span>
+                                <span>
+                                    <p class="num">10</p>
+                                    <p>Hours</p>
+                                </span>
+                                <span>
+                                    <p class="num">49</p>
+                                    <p>Mins</p>
+                                </span>
+                                <span>
+                                    <p class="num">15</p>
+                                    <p>Secs</p>
+                                </span>
+
+                            </div>
+                            <div class="deal-text">
+                                <h6 class="prod-name">Seeds of Change Organic <br> Quinoe Naturel</h6>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <span>(4.0)</span>
+                                <p>By <a class="comp-name" href="">Nestfood</a></p>
+
+                                <div class="price-box pb-2 d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                    <button>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="col-lg-3 col-12">
+                    <div class="box1">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-6.png" alt="">
+                        <div class="contents">
+                            <div class="counter d-flex justify-content-between">
+                                <span>
+                                    <p class="num">1116</p>
+                                    <p>Days</p>
+                                </span>
+                                <span>
+                                    <p class="num">10</p>
+                                    <p>Hours</p>
+                                </span>
+                                <span>
+                                    <p class="num">49</p>
+                                    <p>Mins</p>
+                                </span>
+                                <span>
+                                    <p class="num">15</p>
+                                    <p>Secs</p>
+                                </span>
+                            </div>
+                            <div class="deal-text">
+                                <h6 class="prod-name">Seeds of Change Organic <br> Quinoe Naturel</h6>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <span>(4.0)</span>
+                                <p>By <a class="comp-name" href="">Nestfood</a></p>
+
+                                <div class="price-box pb-2 d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                    <button>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="col-lg-3 col-12">
+                    <div class="box1">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-7.png" alt="">
+                        <div class="contents">
+                            <div class="counter d-flex justify-content-between">
+                                <span>
+                                    <p class="num">1116</p>
+                                    <p>Days</p>
+                                </span>
+                                <span>
+                                    <p class="num">10</p>
+                                    <p>Hours</p>
+                                </span>
+                                <span>
+                                    <p class="num">49</p>
+                                    <p>Mins</p>
+                                </span>
+                                <span>
+                                    <p class="num">15</p>
+                                    <p>Secs</p>
+                                </span>
+                            </div>
+                            <div class="deal-text">
+                                <h6 class="prod-name">Seeds of Change Organic <br> Quinoe Naturel</h6>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <span>(4.0)</span>
+                                <p>By <a class="comp-name" href="">Nestfood</a></p>
+
+                                <div class="price-box pb-2 d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                    <button>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="col-lg-3 col-12">
+                    <div class="box1"> <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-8.png"
+                            alt="">
+                        <div class="contents">
+                            <div class="counter d-flex justify-content-between">
+                                <span>
+                                    <p class="num">1116</p>
+                                    <p>Days</p>
+                                </span>
+                                <span>
+                                    <p class="num">10</p>
+                                    <p>Hours</p>
+                                </span>
+                                <span>
+                                    <p class="num">49</p>
+                                    <p>Mins</p>
+                                </span>
+                                <span>
+                                    <p class="num">15</p>
+                                    <p>Secs</p>
+                                </span>
+
+                            </div>
+                            <div class="deal-text">
+                                <h6 class="prod-name">Seeds of Change Organic <br> Quinoe Naturel</h6>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <i class="fa-solid fa-star star"></i>
+                                <span>(4.0)</span>
+                                <p>By <a class="comp-name" href="">Nestfood</a></p>
+
+                                <div class="price-box pb-2 d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="new-price">$54.35</span>
+                                        <del class="old-price">$55.8</del>
+                                    </div>
+                                    <button>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="stay-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+
+                    <h2 class="mb-4">WHAT ARE YOUR LOOKING FOR?</h2>
+
+                    <p >Start You'r Daily Shopping with <span style="color: #3BB77E;">Nest Mart</span></p>
+
+
+                    <form action="">
+                        
+                        <input type="email" name="" id="" placeholder="Your Email Adress">
+                        <button>SUBSCRIBE</button>
+
+                    </form>
+
+                    <img src="images/banner-9.png" alt="">
+
+                  
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="offers">
+        <div class="container-fluid">
+            <div class="row justify-content-between ">
+                <div  class=" offer-box">
+                    <div class="banner-left-icon d-flex align-items-center " style="visibility: visible;">
+                        <div class="banner-icon">
+                            <img src="images/icon-1.svg" alt="">
+                        </div>
+                        <div class="banner-text">
+                            <h3 class="icon-box-title">Best prices &amp; offers</h3>
+                            <p>Orders $50 or more</p>
+                        </div>
+                    </div>
+                </div>
+                <div  class="offer-box">
+                    <div class="banner-left-icon d-flex align-items-center " style="visibility: visible;">
+                        <div class="banner-icon">
+                            <img src="images/icon-2.svg" alt="">
+                        </div>
+                        <div class="banner-text">
+                            <h3 class="icon-box-title">Free delivery</h3>
+                            <p>24/7 amazing services</p>
+                        </div>
+                    </div>
+                </div>
+                <div    class="offer-box">
+                    <div class="banner-left-icon d-flex align-items-center wow fadeIn animated animated" style="visibility: visible;">
+                        <div class="banner-icon">
+                            <img src="images/icon-3.svg" alt="">
+                        </div>
+                        <div class="banner-text">
+                            <h3 class="icon-box-title">Great daily deal</h3>
+                            <p>When you sign up</p>
+                        </div>
+                    </div>
+                </div>
+                <div    class="offer-box">
+                    <div class="banner-left-icon d-flex align-items-center wow fadeIn animated animated" style="visibility: visible;">
+                        <div class="banner-icon">
+                            <img src="images/icon-4.svg" alt="">
+                        </div>
+                        <div class="banner-text">
+                            <h3 class="icon-box-title">Wide assortment</h3>
+                            <p>Mega Discounts</p>
+                        </div>
+                    </div>
+                </div>
+                <div    class="offer-box">
+                    <div class="banner-left-icon d-flex align-items-center wow fadeIn animated animated" style="visibility: visible;">
+                        <div class="banner-icon">
+                            <img src="images/icon-5.svg" alt="">
+                        </div>
+                        <div class="banner-text">
+                            <h3 class="icon-box-title">Easy returns</h3>
+                            <p>Within 30 days</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="footer-links" class="mt-5">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="col">
+                    <img class="footer-logo" src="images/logo.svg" alt="">
+                    <p class="font-lg text-heading">Awesome grocery store website template</p>
+                    <ul class="contact-infor">
+                        <li><img class="icon-style" src="images/icon-location.svg" alt=""><strong>Address: </strong>
+                            <span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</span></li>
+                        <li><img class="icon-style" src="images/icon-contact.svg" alt=""><strong>Call
+                                Us:</strong><span>(+91) - 540-025-124553</span></li>
+                        <li><img class="icon-style" src="images/icon-email-2.svg"
+                                alt=""><strong>Email:</strong><span>sale@Nest.com</span></li>
+                        <li><img class="icon-style" src="images/icon-clock.svg"
+                                alt=""><strong>Hours:</strong><span>10:00 - 18:00, Mon - Sat</span></li>
+                    </ul>
+
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="col ">
+                    <h4 class="mb-4 mt-3">Company</h4>
+                    <a href="">About US</a>
+                    <a href="">Delivery Information</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & Conditions</a>
+                    <a href="">Contact-Us</a>
+                    <a href="">Sepport Center</a>
+                    <a href="">Careers</a>
+
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="col ">
+                    <h4 class="mb-4 mt-3">Account</h4>
+                    <a href="">Sign In</a>
+                    <a href=""> View Cart</a>
+                    <a href=""> My Wishlist</a>
+                    <a href=""> Track My Order</a>
+                    <a href=""> Help Ticket</a>
+                    <a href=""> Shipping Details</a>
+                    <a href=""> Compare Products</a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="col">
+                    <h4 class="mb-4 mt-3"> Corporate</h4>
+                    <a href="">Become Vendor</a>
+                    <a href=""> Affiliate Program</a>
+                    <a href=""> Farm Business</a>
+                    <a href="">Farm Careers</a>
+                    <a href="">Our Suppliers</a>
+                    <a href="">Accessibility</a>
+                    <a href="">Promotions</a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" class="col">
+
+                    <h4 class="mb-4 mt-3">Popular</h4>
+                    <a href="">Milk & Flavoured Milk</a>
+                    <a href=""> Butter and Margarine</a>
+                    <a href=""> Eggs Substitutes</a>
+                    <a href="">Marmalades</a>
+                    <a href="">Sour Cream and Dips</a>
+                    <a href="">Tea & Kombucha</a>
+                    <a href="">Cheese</a>
+
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100" class="payment">
+                <h4>Install App</h4>
+                <p class="mt-4 mb-4">From App Store or Google Play</p>
+                <div class="stores d-flex">
+                    <a href=""><img src="images/app-store.jpg" alt=""></a>
+                    <a href=""><img src="images/google-play.jpg" alt=""></a>
+                </div>
+
+                <p class="mb-5 mt-4">Secured payment gateways</p>
+                <img src="images/payment-method.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="all-rights">
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center" >
+                <div class="col-lg-4 d-flex ">
+                    <p style="margin-top: 3rem;">© 2021, <span
+                            style="color: #3bb77e; font-size: 17px; font-family: Quicksand,sans-serif; font-weight: 1000; ">NEST</span>
+                        - HTML Ecommerce Template <br> All rights reserved</p>
+                </div>
+                <div class="col-lg-4 d-flex  call-center">
+                    <div class=" left d-flex justify-content-between">
+                        <img style="color: #3bb77e !important;" src="images/phone-call.svg" alt="">
+                    </div>
+                    <div class=" right justify-content-center text-center">
+                        <p>1900 - 6666</p>
+                        <span>Working 8:00 - 22:00</span>
+                    </div>
+                    <div class=" left d-flex justify-content-between">
+                        <img style="color: #3bb77e !important;" src="images/phone-call.svg" alt="">
+                    </div>
+                    <div class=" right justify-content-center text-center">
+                        <p>1900 - 8888</p>
+                        <span>24/7 Support Center</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-end last-icons ">
+                   <div class="media">
+                    <h6 style="margin-top: 4px;">Follow Us</h6>
+                    <a href="#">
+                        <img src="images/icon-facebook-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-twitter-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-instagram-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-pinterest-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/icon-youtube-white.svg" alt="">
+                    </a>
+                   </div>
+                    <p style="opacity: 0.5;">Up to 15% discount on your first subscribe</p>
+                    
+                </div>
+               
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

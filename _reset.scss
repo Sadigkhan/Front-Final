@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.new-price {
+    color: #3BB77E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+.old-price {
+    color: rgb(156, 156, 156);
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 1000;
+}
+.text-green{
+    color: #3BB77E;
+}
+
+.active {
+    color: #3BB77E !important;
+
+}
+
+
